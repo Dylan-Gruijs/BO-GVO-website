@@ -2,7 +2,7 @@
 **Dajo, Dylan en Etienne**
 
 **Vigma Layout**
-<image.png>
+[img/image.png]
 
 **Taken:**
 
