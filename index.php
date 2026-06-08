@@ -12,9 +12,17 @@
 
 
 <body>
-    <?php include 'includes/header.php'; ?>
-    <?php include 'includes/StroomVerbruik.php'; ?>
-    <?php include 'includes/footer.php'; ?>
+    <div class="header"><?php include 'includes/header.php'; ?></div>
+    <div class="div2"><?php include 'includes/StroomVerbruik.php'; ?></div>
+    <div class="div3"><?php include 'includes/actueleTemp.php'; ?></div>
+    <div class="div4">4</div>
+    <div class="div5">5</div>
+    <div class="div6">6</div>
+    <div class="div7">7</div>
+    <div class="div8">8</div>
+    <div class="div9">9</div>
+    <div class="div10">10</div>
+    <div class="footer"><?php include 'includes/footer.php'; ?></div>
 </body>
 
 </html>

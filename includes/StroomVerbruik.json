@@ -1,0 +1,122 @@
+[
+    {
+        "dag": 1,
+        "verbruik": 9.2
+    },
+    {
+        "dag": 2,
+        "verbruik": 8.7
+    },
+    {
+        "dag": 3,
+        "verbruik": 8.5
+    },
+    {
+        "dag": 4,
+        "verbruik": 8.9
+    },
+    {
+        "dag": 5,
+        "verbruik": 9.4
+    },
+    {
+        "dag": 6,
+        "verbruik": 10.1
+    },
+    {
+        "dag": 7,
+        "verbruik": 9.8
+    },
+    {
+        "dag": 8,
+        "verbruik": 9.0
+    },
+    {
+        "dag": 9,
+        "verbruik": 8.6
+    },
+    {
+        "dag": 10,
+        "verbruik": 8.3
+    },
+    {
+        "dag": 11,
+        "verbruik": 8.4
+    },
+    {
+        "dag": 12,
+        "verbruik": 8.9
+    },
+    {
+        "dag": 13,
+        "verbruik": 9.6
+    },
+    {
+        "dag": 14,
+        "verbruik": 10.2
+    },
+    {
+        "dag": 15,
+        "verbruik": 9.9
+    },
+    {
+        "dag": 16,
+        "verbruik": 9.1
+    },
+    {
+        "dag": 17,
+        "verbruik": 8.8
+    },
+    {
+        "dag": 18,
+        "verbruik": 8.7
+    },
+    {
+        "dag": 19,
+        "verbruik": 8.5
+    },
+    {
+        "dag": 20,
+        "verbruik": 9.0
+    },
+    {
+        "dag": 21,
+        "verbruik": 9.3
+    },
+    {
+        "dag": 22,
+        "verbruik": 9.7
+    },
+    {
+        "dag": 23,
+        "verbruik": 10.0
+    },
+    {
+        "dag": 24,
+        "verbruik": 9.4
+    },
+    {
+        "dag": 25,
+        "verbruik": 8.9
+    },
+    {
+        "dag": 26,
+        "verbruik": 8.6
+    },
+    {
+        "dag": 27,
+        "verbruik": 8.8
+    },
+    {
+        "dag": 28,
+        "verbruik": 9.2
+    },
+    {
+        "dag": 29,
+        "verbruik": 9.5
+    },
+    {
+        "dag": 30,
+        "verbruik": 9.1
+    }
+]
