@@ -15,7 +15,7 @@
     <div class="header"><?php include 'includes/header.php'; ?></div>
     <div class="div2"><?php include 'includes/StroomVerbruik.php'; ?></div>
     <div class="div3"><?php include 'includes/actueleTemp.php'; ?></div>
-    <div class="div4">4</div>
+    <div class="div4"><?php include 'includes/waterVerbruik.php'; ?></div>
     <div class="div5">5</div>
     <div class="div6">6</div>
     <div class="div7">7</div>
