@@ -1,12 +1,12 @@
-<a class="weatherwidget-io" href="https://forecast7.com/nl/52d374d90/amsterdam/" data-label_1="AMSTERDAM" data-label_2="WEATHER" data-theme="original">AMSTERDAM WEATHER</a>
-<script>
-    ! function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (!d.getElementById(id)) {
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://weatherwidget.io/js/widget.min.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }
-    }(document, 'script', 'weatherwidget-io-js');
-</script>
+<link rel="stylesheet" href="includes/actueleTemp.css">
+<?php
+$url = "https://api.open-meteo.com/v1/forecast?latitude=52.37&longitude=4.90&current=temperature_2m";
+
+$data = json_decode(file_get_contents($url), true);
+
+echo '<div class="temperature-card">';
+echo '<h2>Actuele temperatuur</h2>';
+echo '<span class="temperature-value">';
+echo $data['current']['temperature_2m'] . ' °C';
+echo '</span>';
+echo '</div>';
