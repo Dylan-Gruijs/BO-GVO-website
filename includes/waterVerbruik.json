@@ -1,122 +1,122 @@
 [
     {
         "datum": "1",
-        "verbruik": 9.2
+        "verbruik": 120
     },
     {
         "datum": "2",
-        "verbruik": 8.7
+        "verbruik": 135
     },
     {
         "datum": "3",
-        "verbruik": 8.5
+        "verbruik": 110
     },
     {
         "datum": "4",
-        "verbruik": 8.9
+        "verbruik": 145
     },
     {
         "datum": "5",
-        "verbruik": 9.4
+        "verbruik": 125
     },
     {
         "datum": "6",
-        "verbruik": 10.1
+        "verbruik": 130
     },
     {
         "datum": "7",
-        "verbruik": 9.8
+        "verbruik": 118
     },
     {
         "datum": "8",
-        "verbruik": 9.0
+        "verbruik": 140
     },
     {
         "datum": "9",
-        "verbruik": 8.6
+        "verbruik": 122
     },
     {
         "datum": "10",
-        "verbruik": 8.3
+        "verbruik": 137
     },
     {
         "datum": "11",
-        "verbruik": 8.4
+        "verbruik": 128
     },
     {
         "datum": "12",
-        "verbruik": 8.9
+        "verbruik": 142
     },
     {
         "datum": "13",
-        "verbruik": 9.6
+        "verbruik": 115
     },
     {
         "datum": "14",
-        "verbruik": 10.2
+        "verbruik": 133
     },
     {
         "datum": "15",
-        "verbruik": 9.9
+        "verbruik": 126
     },
     {
         "datum": "16",
-        "verbruik": 9.1
+        "verbruik": 139
     },
     {
         "datum": "17",
-        "verbruik": 8.8
+        "verbruik": 121
     },
     {
         "datum": "18",
-        "verbruik": 8.7
+        "verbruik": 144
     },
     {
         "datum": "19",
-        "verbruik": 8.5
+        "verbruik": 129
     },
     {
         "datum": "20",
-        "verbruik": 9.0
+        "verbruik": 136
     },
     {
         "datum": "21",
-        "verbruik": 9.3
+        "verbruik": 117
     },
     {
         "datum": "22",
-        "verbruik": 9.7
+        "verbruik": 141
     },
     {
         "datum": "23",
-        "verbruik": 10.0
+        "verbruik": 124
     },
     {
         "datum": "24",
-        "verbruik": 9.4
+        "verbruik": 138
     },
     {
         "datum": "25",
-        "verbruik": 8.9
+        "verbruik": 119
     },
     {
         "datum": "26",
-        "verbruik": 8.6
+        "verbruik": 143
     },
     {
         "datum": "27",
-        "verbruik": 8.8
+        "verbruik": 127
     },
     {
         "datum": "28",
-        "verbruik": 9.2
+        "verbruik": 134
     },
     {
         "datum": "29",
-        "verbruik": 9.5
+        "verbruik": 123
     },
     {
         "datum": "30",
-        "verbruik": 9.1
+        "verbruik": 140
     }
 ]
