@@ -36,4 +36,5 @@
             .catch(error => console.error('Fout bij laden data:', error));
     }
 </script>
+
 <div id="chart_div"></div>
