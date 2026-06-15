@@ -12,7 +12,7 @@
 
 
 <body>
-    <header><?php include 'includes/header.php'; ?></header>
+    <?php include 'includes/header.php'; ?>
     <div class="container">
         <div class="div2"><?php include 'includes/StroomVerbruik.php'; ?></div>
         <div class="div3"><?php include 'includes/actueleTemp.php'; ?></div>
@@ -24,7 +24,7 @@
         <div class="div9">9</div>
         <div class="div10">10</div>
     </div>
-    <footer><?php include 'includes/footer.php'; ?></footer>
+    <?php include 'includes/footer.php'; ?>
 </body>
 
 </html>

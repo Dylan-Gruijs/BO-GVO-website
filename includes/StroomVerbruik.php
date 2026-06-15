@@ -3,7 +3,6 @@
     google.charts.load('current', {
         'packages': ['corechart']
     });
-
     // Set a callback to run when the Google Visualization API is loaded.
     google.charts.setOnLoadCallback(loadAndDrawChart);
 
@@ -19,7 +18,7 @@
             .then(jsonData => {
                 var data = new google.visualization.DataTable();
                 data.addColumn('string', 'Naam');
-                data.addColumn('number', 'Waarde');
+                data.addColumn('number', 'KWH');
 
 
                 jsonData.forEach(item => {
@@ -28,7 +27,8 @@
                 });
 
                 var options = {
-                    'title': 'Stroomverbruik per dag'
+                    'title': 'Stroomverbruik per dag',
+                    colors: ['#56b25e'],
                 };
                 var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
                 chart.draw(data, options);

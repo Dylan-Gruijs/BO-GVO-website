@@ -19,7 +19,7 @@
             .then(jsonData => {
                 var data = new google.visualization.DataTable();
                 data.addColumn('string', 'Naam');
-                data.addColumn('number', 'Waarde');
+                data.addColumn('number', 'm³');
 
 
                 jsonData.forEach(item => {
@@ -28,7 +28,8 @@
                 });
 
                 var options = {
-                    'title': 'Waterverbruik per dag'
+                    'title': 'Waterverbruik per dag',
+                    colors: ['#56b25e'],
                 };
                 var chart = new google.visualization.ColumnChart(document.getElementById('chart_div2'));
                 chart.draw(data, options);

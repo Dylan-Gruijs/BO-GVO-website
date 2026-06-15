@@ -28,7 +28,8 @@
                 });
 
                 var options = {
-                    'title': 'Gemiddelde teruglevering per maand'
+                    'title': 'Gemiddelde teruglevering per maand',
+                    colors: ['#56b25e'],
                 };
                 var chart = new google.visualization.ColumnChart(document.getElementById('chart_div3'));
                 chart.draw(data, options);
