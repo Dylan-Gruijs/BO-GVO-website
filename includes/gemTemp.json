@@ -1,0 +1,14 @@
+[
+  { "maand": "Jan", "binnen": 20, "buiten": 3 },
+  { "maand": "Feb", "binnen": 20, "buiten": 4 },
+  { "maand": "Mrt", "binnen": 21, "buiten": 7 },
+  { "maand": "Apr", "binnen": 22, "buiten": 10 },
+  { "maand": "Mei", "binnen": 23, "buiten": 14 },
+  { "maand": "Jun", "binnen": 24, "buiten": 17 },
+  { "maand": "Jul", "binnen": 25, "buiten": 19 },
+  { "maand": "Aug", "binnen": 25, "buiten": 19 },
+  { "maand": "Sep", "binnen": 24, "buiten": 15 },
+  { "maand": "Okt", "binnen": 23, "buiten": 11 },
+  { "maand": "Nov", "binnen": 21, "buiten": 7 },
+  { "maand": "Dec", "binnen": 20, "buiten": 4 }
+]
