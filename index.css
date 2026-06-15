@@ -14,3 +14,15 @@ body {
     grid-template-rows: repeat(3, 1fr);
     gap: 4px;
 }
+
+section {
+    flex-direction: column;
+    background-color: rgb(2, 67, 130);
+    color: rgb(86, 178, 94);
+    font-size: 7px;
+    text-align: center;
+    border-color: rgb(86, 178, 94);
+    border-style: solid;
+    border-width: 2px;
+    font-family: monospace;
+}
