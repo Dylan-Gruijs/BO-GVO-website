@@ -19,7 +19,7 @@
         <div class="div4"><?php include 'includes/waterVerbruik.php'; ?></div>
         <div class="div5"><?php include 'includes/zonsopkomstOndergang.php'; ?></div>
         <div class="div6"><?php include 'includes/teruglevering.php'; ?></div>
-        <div class="div7">7</div>
+        <div class="div7"><?php include 'includes/gemTemp.php'; ?></div>
         <div class="div8">8</div>
         <div class="div9">9</div>
         <div class="div10">10</div>

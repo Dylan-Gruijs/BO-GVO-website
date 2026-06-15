@@ -23,4 +23,4 @@ Dylan: Layout Website + Gemiddelde Verbruik per Maand + Actuele buiten temperatu
 
 Dajo: Weersverwachting + Waterverbruik + Tijd periode + Lichten aan/uit
 
-Etienne: Zonsopkomst Zonsondergang + Gemiddelde teruglevering per maand + Grafiektitel
+Etienne: Zonsopkomst Zonsondergang + Gemiddelde teruglevering per maand + Gemiddelde temperatuur

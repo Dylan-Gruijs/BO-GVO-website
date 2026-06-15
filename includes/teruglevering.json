@@ -1,0 +1,50 @@
+[
+    {
+        "datum": "Jan",
+        "verbruik": 45
+    },
+    {
+        "datum": "Feb",
+        "verbruik": 70
+    },
+    {
+        "datum": "Mar",
+        "verbruik": 130
+    },
+    {
+        "datum": "Apr",
+        "verbruik": 220
+    },
+    {
+        "datum": "Mei",
+        "verbruik": 310
+    },
+    {
+        "datum": "Jun",
+        "verbruik": 360
+    },
+    {
+        "datum": "Jul",
+        "verbruik": 390
+    },
+    {
+        "datum": "Aug",
+        "verbruik": 340
+    },
+    {
+        "datum": "Sep",
+        "verbruik": 250
+    },
+    {
+        "datum": "Oct",
+        "verbruik": 140
+    },
+    {
+        "datum": "Nov",
+        "verbruik": 65
+    },
+    {
+        "datum": "Dec",
+        "verbruik": 35
+    }
+]
