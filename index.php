@@ -12,8 +12,8 @@
 
 
 <body>
+    <header><?php include 'includes/header.php'; ?></header>
     <div class="container">
-        <div class="header"><?php include 'includes/header.php'; ?></div>
         <div class="div2"><?php include 'includes/StroomVerbruik.php'; ?></div>
         <div class="div3"><?php include 'includes/actueleTemp.php'; ?></div>
         <div class="div4"><?php include 'includes/waterVerbruik.php'; ?></div>
@@ -24,7 +24,7 @@
         <div class="div9">9</div>
         <div class="div10">10</div>
     </div>
-    <div class="footer"><?php include 'includes/footer.php'; ?></div>
+    <footer><?php include 'includes/footer.php'; ?></footer>
 </body>
 
 </html>
