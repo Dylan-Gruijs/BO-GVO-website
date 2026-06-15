@@ -23,8 +23,8 @@
         <div class="div8">8</div>
         <div class="div9">9</div>
         <div class="div10">10</div>
-        <div class="footer"><?php include 'includes/footer.php'; ?></div>
     </div>
+    <div class="footer"><?php include 'includes/footer.php'; ?></div>
 </body>
 
 </html>
