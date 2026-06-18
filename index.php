@@ -12,19 +12,26 @@
 
 
 <body>
+    <?php include 'includes/header.php'; ?>
     <div class="container">
-        <div class="header"><?php include 'includes/header.php'; ?></div>
-        <div class="div2"><?php include 'includes/StroomVerbruik.php'; ?></div>
-        <div class="div3"><?php include 'includes/actueleTemp.php'; ?></div>
-        <div class="div4"><?php include 'includes/waterVerbruik.php'; ?></div>
-        <div class="div5"></div>
-        <div class="div6">6</div>
-        <div class="div7">7</div>
-        <div class="div8"><?php include 'includes/Weersverwachting.php'; ?></div>
+        <div class="div2"><?php include 'includes/StroomVerbruik.php'; ?><section>Dylan</section>
+        </div>
+        <div class="div3"><?php include 'includes/actueleTemp.php'; ?><section>Dylan</section>
+        </div>
+        <div class="div4"><?php include 'includes/waterVerbruik.php'; ?><section>Dajo</section>
+        </div>
+        <div class="div5"><?php include 'includes/zonsopkomstOndergang.php'; ?><section>Etienne</section>
+        </div>
+        <div class="div6"><?php include 'includes/teruglevering.php'; ?><section>Etienne</section>
+        </div>
+        <div class="div7"><?php include 'includes/gemTemp.php'; ?><section>Etienne</section>
+        </div>
+        <div class="div8"><?php include 'includes/Weersverwachting.php'; ?><section>Dajo</section>
+        </div>
         <div class="div9">9</div>
         <div class="div10">10</div>
-        <div class="footer"><?php include 'includes/footer.php'; ?></div>
     </div>
+    <?php include 'includes/footer.php'; ?>
 </body>
 
 </html>

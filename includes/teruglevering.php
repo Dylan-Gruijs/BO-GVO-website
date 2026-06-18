@@ -3,6 +3,7 @@
     google.charts.load('current', {
         'packages': ['corechart']
     });
+
     // Set a callback to run when the Google Visualization API is loaded.
     google.charts.setOnLoadCallback(loadAndDrawChart);
 
@@ -10,7 +11,7 @@
     // instantiates the pie chart, passes in the data and
     // draws it.
     function loadAndDrawChart() {
-        fetch('includes/StroomVerbruik.json')
+        fetch('includes/teruglevering.json')
             .then(response => {
                 if (!response.ok) throw new Error('Network response was not ok');
                 return response.json();
@@ -27,14 +28,14 @@
                 });
 
                 var options = {
-                    'title': 'Stroomverbruik per dag',
+                    'title': 'Gemiddelde teruglevering per maand',
                     colors: ['#56b25e'],
                 };
-                var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+                var chart = new google.visualization.ColumnChart(document.getElementById('chart_div3'));
                 chart.draw(data, options);
             })
             .catch(error => console.error('Fout bij laden data:', error));
     }
 </script>
 
-<div id="chart_div"></div>
+<div id="chart_div3"></div>
