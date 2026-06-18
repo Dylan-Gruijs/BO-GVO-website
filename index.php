@@ -28,7 +28,8 @@
         </div>
         <div class="div8"><?php include 'includes/Weersverwachting.php'; ?><section>Dajo</section>
         </div>
-        <div class="div9">9</div>
+        <div class="div9"><?php include 'includes/LichtenAanUit.php'; ?><section>Dajo</section>
+        </div>
         <div class="div10">10</div>
     </div>
     <?php include 'includes/footer.php'; ?>
