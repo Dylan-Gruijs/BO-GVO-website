@@ -30,9 +30,29 @@
         </div>
         <div class="div9"><?php include 'includes/LichtenAanUit.php'; ?><section>Dajo</section>
         </div>
-        <div class="div10">10</div>
+        <div class="div10"><?php include 'includes/dark-licht.php'; ?><section>Dajo</section>
+        </div>
     </div>
     <?php include 'includes/footer.php'; ?>
 </body>
+
+<script>
+const btn = document.getElementById("themeToggle");
+ 
+btn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+ 
+    localStorage.setItem(
+        "theme",
+        document.body.classList.contains("dark-mode") ? "dark" : "light"
+    );
+});
+ 
+window.addEventListener("load", () => {
+    if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark-mode");
+    }
+});
+</script>
 
 </html>
