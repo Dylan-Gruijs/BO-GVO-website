@@ -1,0 +1,17 @@
+.temperature-card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.temperature-card h2 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.temperature-value {
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(86 178 94);
+}

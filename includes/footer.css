@@ -1,11 +1,12 @@
 footer {
-    text-align: center;
-    justify-content: center;
-    color: rgb(86, 178, 94);
+    flex-direction: column;
     background-color: rgb(2, 67, 130);
+    color: rgb(86, 178, 94);
     font-size: 50px;
-    border-style: solid;
+    text-align: center;
     border-color: rgb(86, 178, 94);
+    border-style: solid;
+        border-top-width: 10px;
     border-bottom: 0px;
     border-left: 0px;
     border-right: 0px;
