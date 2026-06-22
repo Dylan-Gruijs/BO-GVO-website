@@ -6,16 +6,16 @@
 
 **Taken:**
 
-- Layout Website (Niet Klaar)
-- Gemiddelde Verbruik per Maand (Niet Klaar)
-- Actuele buiten temperatuur (Niet Klaar)
-- Weersverwachting (Niet Klaar)
-- Waterverbruik (Niet Klaar)
-- Tijd periode (Niet Klaar)
-- Lichten aan/uit (Niet Klaar)
-- Zonsopkomst Zonsondergang (Niet Klaar)
-- Gemiddelde teruglevering per maand (Niet Klaar)
-- Grafiektitel (Niet Klaar)
+- Layout Website (Klaar)
+- Gemiddelde Verbruik per Maand (Klaar)
+- Actuele buiten temperatuur (Klaar)
+- Weersverwachting (Klaar)
+- Waterverbruik (Klaar)
+- Tijd periode (klaar)
+- Lichten aan/uit (Klaar)
+- Zonsopkomst Zonsondergang (Klaar)
+- Gemiddelde teruglevering per maand (Klaar)
+- Gemiddelde temperatuur (Klaar)
 
 **Takenverdeling:**
 
