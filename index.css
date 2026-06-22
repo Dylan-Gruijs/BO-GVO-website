@@ -27,17 +27,30 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
+    gap: 2px;
 }
 
+@media (max-width: 1200px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
 .container>div {
-    background: white;
-    padding: 20px;
+    padding: 10px;
     display: flex;
-    flex-wrap: wrap;
     align-content: stretch;
     align-items: stretch;
+    flex-direction: column;
     justify-content: space-evenly;
+}
+.container>div>div {
+    flex-basis: 100%;
 }
 section {
     display: flex;
@@ -51,8 +64,7 @@ section {
     border-width: 2px;
     font-family: monospace;
     transition: 0.3s ease;
-    flex-basis: 100%;
-        height: 5%;
+    height: 5%;
 }
 
 #themeToggle {
@@ -62,6 +74,7 @@ section {
     text-align: center;
     font-size: 18px;
 }
+
 .dark-mode header {
     background: #1e1e1e;
     color: white;
