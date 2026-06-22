@@ -30,6 +30,15 @@ body {
     gap: 10px;
 }
 
+.container>div {
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
 section {
     display: flex;
     flex-direction: column;
@@ -42,12 +51,25 @@ section {
     border-width: 2px;
     font-family: monospace;
     transition: 0.3s ease;
+    flex-basis: 100%;
+        height: 5%;
 }
 
 #themeToggle {
     width: 100%;
-    height: 94%;
+    height: 95%;
     align-items: center;
     text-align: center;
     font-size: 18px;
+}
+.dark-mode header {
+    background: #1e1e1e;
+    color: white;
+    border-color: darkgray;
+}
+
+.dark-mode footer {
+    background: #1e1e1e;
+    color: white;
+    border-color: darkgray;
 }
